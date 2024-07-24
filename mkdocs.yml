@@ -39,12 +39,16 @@ nav:
     - 'Docker Installation': 'Installations/Install-Docker-Engine-on-RHEL.md'
     - 'Jenkins Installation': 'Installations/Jenkins Installation.md'
     - 'Webserver Installation': Installations/Httpd Webserver.md
+    - 'Argo Cd': Installations/Argo Cd.md
 - Integration :
     - 'Docker Integration': 'Tool-integrations/Integrate-docker-with-jenkins.md'
     - 'Sonarqube Integration': 'Tool-integrations/Integrate-sonarqube-jenkins.md'
 - Containerization :
-    - 'Docker Installation': 'Installations/Install-Docker-Engine-on-RHEL.md'
     - 'Managing Docker Containers': 'Installations/Docker/Managing Docker Containers.md'
+- Kubernetes : 
+    - 'Cluster Architecture' : 'Kubernetes/Cluster Architecture.md'
+    - 'Cluster Installaion' : 'Kubernetes/Cluster Installation.md'
+    - 'Working with Pods' : 'Kubernetes/Working with Pods.md'
 
 extra:
   social:
