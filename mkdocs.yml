@@ -51,6 +51,8 @@ nav:
     - 'Working with Pods' : 'Kubernetes/Working with Pods.md'
 - SCM: 
     - 'Git': Git/Git.md
+    - 'User Configuration': Git/Git Credentials Setup.md
+    - 'Git Work flow': Git/Git Work flow.md
 
 extra:
   social:
