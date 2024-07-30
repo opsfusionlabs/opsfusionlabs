@@ -32,6 +32,7 @@ theme:
 plugins:
   # - social
   - search
+  - glightbox
 
 nav:
 - Home: 'index.md'
@@ -76,6 +77,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - attr_list
+  - md_in_html
 
         
 
