@@ -50,9 +50,9 @@ nav:
     - 'Cluster Installaion' : 'Kubernetes/Cluster Installation.md'
     - 'Working with Pods' : 'Kubernetes/Working with Pods.md'
 - SCM: 
-    - 'Git': Git/Git.md
-    - 'User Configuration': Git/Git Credentials Setup.md
-    - 'Git Work flow': Git/Git Work flow.md
+    - 'Git': 'Git/Git.md'
+    - 'User Configuration': 'Git/Git Credentials Setup.md'
+    - 'Initial Git Work flow': 'Git/Git Work flow.md'
 
 extra:
   social:
