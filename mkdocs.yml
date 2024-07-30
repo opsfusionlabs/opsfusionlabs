@@ -4,8 +4,10 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
+    - navigation.expand
     - navigation.indexes
     - toc.integrate
     - navigation.top
