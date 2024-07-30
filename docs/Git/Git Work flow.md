@@ -1,14 +1,15 @@
+### Local Repo 
 
 - Setting up a local repository
+  
+	```
+	mkdir opsfusionlabs
+	cd opsfusionlabs  
+	```
 
-  ```
-  mkdir opsfusionlabs
-  cd opsfusionlabs  
-  ```
-
-```
-git init
-```
+	```
+	git init
+	```
 
 Output: 
 
@@ -28,11 +29,13 @@ Initialized empty Git repository in /root/opsfusionlabs/.git/
 
 ```
 
+### Git Status 
+
 - Git-status is used to understand what stage the files in a repository are at.
 
-```
-git status 
-```
+	```
+	git status 
+	```
 
 Output: 
 
@@ -46,11 +49,12 @@ nothing to commit (create/copy files and use "git add" to track)
 
 ```
 
-- Create new file `app.py`
+-  Create new file `app.py`
 
-```
-touch app.py 
-```
+	```
+	touch app.py 
+	```
+	
 Output : 
 
 ```
@@ -74,11 +78,14 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 
 ```
+
+### Git add 
+
 - The `git add` command adds a change in the working directory to the staging area
 
-```
-git add app.py 
-```
+	```
+	git add app.py 
+	```
 
 Output :
 
@@ -96,11 +103,13 @@ Changes to be committed:
 root@OpsFusionLabs-Git-Server:~/opsfusionlabs#
 
 ```
+### Git commit 
+
 - `git commit` creates a commit, which is like a snapshot of your repository. These commits are snapshots of your entire repository at specific times.
   
-```
-git commit -m "commit message" <file name>
-```
+	```
+	git commit -m "commit message" <file name>
+	```
 
 Output: 
 
@@ -112,11 +121,12 @@ root@OpsFusionLabs-Git-Server:~/opsfusionlabs# git commit -m "app.py file added"
 
 ```
 
-
+### Git log
 * Check the Commit messages 
-```
-git log 
-```
+  
+	```
+	git log 
+	```
 
 Output: 
 
