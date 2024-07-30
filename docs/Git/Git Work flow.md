@@ -1,10 +1,10 @@
 
 - Setting up a local repository
 
-```
-mkdir opsfusionlabs
-cd opsfusionlabs  
-```
+  ```
+  mkdir opsfusionlabs
+  cd opsfusionlabs  
+  ```
 
 ```
 git init
