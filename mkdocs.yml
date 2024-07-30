@@ -49,6 +49,8 @@ nav:
     - 'Cluster Architecture' : 'Kubernetes/Cluster Architecture.md'
     - 'Cluster Installaion' : 'Kubernetes/Cluster Installation.md'
     - 'Working with Pods' : 'Kubernetes/Working with Pods.md'
+- SCM: 
+    - 'Git': Git/Git.md
 
 extra:
   social:
