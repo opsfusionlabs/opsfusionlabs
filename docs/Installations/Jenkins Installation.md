@@ -101,8 +101,7 @@ sh jenkins.sh
 
 - Browse to `http://localhost:8080` (or whichever port you configured for Jenkins when installing it) and wait until the **Unlock Jenkins** page appears.
 
-
-![Pasted image 20240705095911.png](/Installations/Images/Pasted image 20240705095911.png)
+![Pastedimage20240705095911.png](../Installations/Images/Pastedimage20240705095911.png)
 
 - The command: `sudo cat /var/lib/jenkins/secrets/initialAdminPassword` will print the password at console.
 
