@@ -1,5 +1,14 @@
+## Project information
 site_name: OpsFusionLabs
-# site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+site_url: https://opsfusionlabs.github.io/opsfusionlabs/
+site_description: Devops 
+
+## Repository
+repo_name: OpsFusionLabs
+repo_url: https://github.com/opsfusionlabs/opsfusionlabs.git
+
+
+
 theme:
   name: material
   features:
@@ -52,10 +61,11 @@ nav:
     - 'Cluster Architecture' : 'Kubernetes/Cluster Architecture.md'
     - 'Cluster Installaion' : 'Kubernetes/Cluster Installation.md'
     - 'Working with Pods' : 'Kubernetes/Working with Pods.md'
-- SCM: 
+- Version Control System: 
     - 'Git': 'Git/Git.md'
     - 'User Configuration': 'Git/Git Credentials Setup.md'
-    - 'Initial Git Work flow': 'Git/Git Work flow.md'
+    - 'Initial Git Work flow': 'Git/Workflow.md'
+    - 'Git Branching': 'Git/Branches.md'
 
 extra:
   social:
