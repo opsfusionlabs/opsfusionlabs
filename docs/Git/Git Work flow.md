@@ -143,7 +143,7 @@ root@OpsFusionLabs-Git-Server:~/opsfusionlabs#
 
 
 
-## STAGE & SNAPSHOT
+### 
 
 Un stage a file while retaining the changes in working directory
 
