@@ -20,7 +20,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.path
     - navigation.indexes
-    - toc.integrate
+    # - toc.integrate
     - navigation.prune
     - search.suggest
     - search.highlight
