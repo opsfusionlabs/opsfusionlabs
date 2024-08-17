@@ -8,23 +8,26 @@ repo_name: OpsFusionLabs
 repo_url: https://github.com/opsfusionlabs/opsfusionlabs.git
 
 
-
 theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.path
+    - navigation.top
     - navigation.expand
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs.sticky
+    - navigation.path
     - navigation.indexes
     - toc.integrate
-    - navigation.top
+    - navigation.prune
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - content.code.select
   language: en
   palette:
     - scheme: default
@@ -39,6 +42,9 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: lime
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   # - social
@@ -61,6 +67,17 @@ nav:
     - 'Cluster Architecture' : 'Kubernetes/Cluster Architecture.md'
     - 'Cluster Installaion' : 'Kubernetes/Cluster Installation.md'
     - 'Working with Pods' : 'Kubernetes/Working with Pods.md'
+    - 'Working With ReplicaSets' : Kubernetes/Working with ReplicaSets.md
+    - 'Working with Deployments'  : Kubernetes/Working with Deployments.md
+    - 'Working with Namespace' : Kubernetes/Working with Namesapce.md
+    - 'Working with Services' : Kubernetes/Working with Services.md
+    - 'Storage': Kubernetes/Storage.md
+    - 'Ephemeral Storage': 
+          - emptyDir: Kubernetes/emptyDir.md
+          - ConfigMap: Kubernetes/ConfigMap.md
+ 
+        
+      
 - Version Control System: 
     - 'Git': 'Git/Git.md'
     - 'User Configuration': 'Git/Git Credentials Setup.md'
@@ -79,6 +96,8 @@ extra:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: _span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
