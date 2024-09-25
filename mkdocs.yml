@@ -1,34 +1,49 @@
 ## Project information
 site_name: OpsFusionLabs
-site_url: https://opsfusionlabs.github.io/opsfusionlabs/
-site_description: Devops 
+site_url: https://opsfusionlabs.com/
+site_author: Sankeerth Chillamcharla
+site_description: >- 
+  opsfusionlabs is platform to learn about cloud computing, DevOps methodologies, and MLOps frameworks.
+  Access valuable resources to boost your expertise and drive innovation in your projects. Start learning now! 
 
 ## Repository
 repo_name: OpsFusionLabs
 repo_url: https://github.com/opsfusionlabs/opsfusionlabs.git
 
+copyright: |
+  &copy; 2024 <a href="https://opsfusionlabs.com/"  rel="noopener">OpsFusionlabs</a>
 
 theme:
   name: material
+  custom_dir: overrides
   features:
+    - announce.dismiss
+    - content.code.annotate
+    - content.tooltips
+    - content.tabs.link
+    # - content.code.annotation
+    # - content.code.copy
+    # - content.code.select
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
     - navigation.tabs
     - navigation.top
-    - navigation.expand
-    - navigation.sections
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.tabs.sticky
-    - navigation.path
-    - navigation.indexes
-    # - toc.integrate
-    - navigation.prune
+    - navigation.tracking
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-    - content.code.select
+    - search.share
+    - toc.follow
+
   language: en
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
   palette:
     - scheme: default
       toggle:
@@ -43,46 +58,14 @@ theme:
       primary: teal
       accent: lime
 
-extra_css:
-  - stylesheets/extra.css
 
 plugins:
-  # - social
-  - search
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
   - glightbox
 
-nav:
-- Home: 'index.md'
-- Installation Guides :
-    - 'Docker Installation': 'Installations/Install-Docker-Engine-on-RHEL.md'
-    - 'Jenkins Installation': 'Installations/Jenkins Installation.md'
-    - 'Webserver Installation': Installations/Httpd Webserver.md
-    - 'Argo Cd': Installations/Argo Cd.md
-- Integration :
-    - 'Docker Integration': 'Tool-integrations/Integrate-docker-with-jenkins.md'
-    - 'Sonarqube Integration': 'Tool-integrations/Integrate-sonarqube-jenkins.md'
-- Containerization :
-    - 'Managing Docker Containers': 'Installations/Docker/Managing Docker Containers.md'
-- Kubernetes : 
-    - 'Cluster Architecture' : 'Kubernetes/Cluster Architecture.md'
-    - 'Cluster Installaion' : 'Kubernetes/Cluster Installation.md'
-    - 'Working with Pods' : 'Kubernetes/Working with Pods.md'
-    - 'Working With ReplicaSets' : Kubernetes/Working with ReplicaSets.md
-    - 'Working with Deployments'  : Kubernetes/Working with Deployments.md
-    - 'Working with Namespace' : Kubernetes/Working with Namesapce.md
-    - 'Working with Services' : Kubernetes/Working with Services.md
-    - 'Storage': Kubernetes/Storage.md
-    - 'Ephemeral Storage': 
-          - emptyDir: Kubernetes/emptyDir.md
-          - ConfigMap: Kubernetes/ConfigMap.md
- 
-        
-      
-- Version Control System: 
-    - 'Git': 'Git/Git.md'
-    - 'User Configuration': 'Git/Git Credentials Setup.md'
-    - 'Initial Git Work flow': 'Git/Workflow.md'
-    - 'Git Branching': 'Git/Branches.md'
 
 extra:
   social:
@@ -111,7 +94,36 @@ markdown_extensions:
   - md_in_html
 
 
-        
 
-copyright: |
-  &copy; 2024 <a href="#"  target="_blank" rel="noopener">OpsFusionlabs</a>
+
+nav:
+- Installation Guides :
+    - 'Docker Installation': 'Installations/Install-Docker-Engine-on-RHEL.md'
+    - 'Jenkins Installation': 'Installations/Jenkins Installation.md'
+    - 'Webserver Installation': Installations/Httpd Webserver.md
+    - 'Argo Cd': Installations/Argo Cd.md
+- Integration :
+    - 'Docker Integration': 'Tool-integrations/Integrate-docker-with-jenkins.md'
+    - 'Sonarqube Integration': 'Tool-integrations/Integrate-sonarqube-jenkins.md'
+- Containerization :
+    - 'Managing Docker Containers': 'Installations/Docker/Managing Docker Containers.md'
+- Kubernetes : 
+    - 'Cluster Architecture' : 'Kubernetes/Cluster Architecture.md'
+    - 'Cluster Installaion' : 'Kubernetes/Cluster Installation.md'
+    - 'Working with Pods' : 'Kubernetes/Working with Pods.md'
+    - 'Working With ReplicaSets' : Kubernetes/Working with ReplicaSets.md
+    - 'Working with Deployments'  : Kubernetes/Working with Deployments.md
+    - 'Working with Namespace' : Kubernetes/Working with Namesapce.md
+    - 'Working with Services' : Kubernetes/Working with Services.md
+    - 'Storage': Kubernetes/Storage.md
+    - 'Ephemeral Storage': 
+          - emptyDir: Kubernetes/emptyDir.md
+          - ConfigMap: Kubernetes/ConfigMap.md
+ 
+- Version Control System: 
+    - 'Git': 'Git/Git.md'
+    - 'User Configuration': 'Git/Git Credentials Setup.md'
+    - 'Initial Git Work flow': 'Git/Workflow.md'
+    - 'Git Branching': 'Git/Branches.md'
+
+
