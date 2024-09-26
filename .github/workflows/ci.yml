@@ -23,3 +23,8 @@ jobs:
       - run: pip install mkdocs-glightbox
       - run: pip install mkdocs-minify-plugin
       - run: mkdocs gh-deploy --force
+      - run: |
+          echo "www.opsfusionlabs.com" > CNAME
+          git add CNAME
+          git commit -m "Add CNAME file for custom domain"
+          git push origin gh-pages
