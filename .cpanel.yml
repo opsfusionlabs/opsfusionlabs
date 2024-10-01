@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/opsfusio/tmp/
-    - /bin/cp -R opsfusionlabs $DEPLOYPATH
+    - /bin/cp -R . $DEPLOYPATH
